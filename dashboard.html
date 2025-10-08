@@ -7,16 +7,52 @@
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
-      background: #e8f5e9;
       margin: 0;
       padding: 0;
-      text-align: center;
+      background: #f4f4f4;
+    }
+    nav {
+      background: #4CAF50;
+      color: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav .logo {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+    nav .user {
+      font-size: 1em;
     }
     .container {
-      margin-top: 100px;
+      max-width: 800px;
+      margin: 60px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
     }
     h1 {
       color: #4CAF50;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">🎁 GiftLink</div>
+    <div class="user">Logged in as: <strong>dimitrios2026</strong></div>
+  </nav>
+
+  <div class="container">
+    <h1>Welcome back, dimitrios2026!</h1>
+    <p>You are now logged in and can explore your personalized dashboard.</p>
+  </div>
+</body>
+</html>
+
     }
     p {
       font-size: 1.2em;
