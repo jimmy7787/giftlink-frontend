@@ -1,13 +1,49 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Gift Search Results</title>
-  </head>
-  <body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Results | GiftLink</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 20px;
+    }
+    h1 {
+      color: #4CAF50;
+      text-align: center;
+    }
+    .result {
+      background: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 6px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.1);
+    }
+    .result h2 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
     <h1>Search Results for "Tech"</h1>
-    <ul>
-      <li><strong>Wireless Headphones</strong> – Noise-cancelling, €129.99</li>
-      <li><strong>Smart Mug</strong> – Temperature control, €49.99</li>
-    </ul>
-  </body>
+    <div class="result">
+      <h2>Wireless Headphones</h2>
+      <p>Noise-cancelling, 30hr battery</p>
+    </div>
+    <div class="result">
+      <h2>Smart Mug</h2>
+      <p>Keeps your drink at the perfect temperature</p>
+    </div>
+  </div>
+</body>
 </html>
+
